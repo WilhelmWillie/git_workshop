@@ -10,7 +10,7 @@
     <br>
     <button onclick="add()">Add</button>
     <button onclick="subtract()">Subtract</button>
-
+    <button onclick="multiply()">Multiply</button>
 
     <script>
     function myFunction() {
@@ -27,6 +27,12 @@
       var val1 = parseInt(document.getElementById("val1").value);
       var val2 = parseInt(document.getElementById("val2").value);
       document.getElementById("result").value = val1 - val2;
+    }
+      
+    function multiply(){
+      var val1 = parseInt(document.getElementById("val1").value);
+      var val2 = parseInt(document.getElementById("val2").value);
+      document.getElementById("result").value = val1 * val2;
     }
     </script>
   </body>
